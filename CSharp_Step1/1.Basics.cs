@@ -40,9 +40,7 @@ class FirstProgram
         Console.WriteLine("Your Full Name is: " + FullName);
 
     }
-        
-
-
+ 
 
     //Defination
     static void ReadMessages()
