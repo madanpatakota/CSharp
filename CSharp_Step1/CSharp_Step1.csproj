@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DatatypesMinMax</StartupObject>
+    <StartupObject>StringExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,8 @@
     <Compile Include="1.Basics.cs" />
     <Compile Include="2.Datatypes.cs" />
     <Compile Include="3.Datatypes.cs" />
+    <Compile Include="4.VarAndDynamic.cs" />
+    <Compile Include="5.String.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
