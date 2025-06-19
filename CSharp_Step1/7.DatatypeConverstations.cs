@@ -68,6 +68,10 @@ class DatatypeConversations
         DateTime dateTime = DateTime.Now;
         Console.WriteLine(dateTime.ToString());
 
+        string[] strings;
+
+        //strings.jo
+
         
 
 
