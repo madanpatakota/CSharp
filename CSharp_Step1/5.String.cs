@@ -103,7 +103,8 @@ class StringExample
         int quantity = 5;
         double price = 9.99;
 
-       string receipt = string.Format("You purcahsed {0} items for {1}" , quantity, quantity*price);
+       string receipt = string.Format("You purcahsed {0} items for {1}" ,
+           quantity, quantity*price);
        Console.WriteLine(receipt);
 
 
