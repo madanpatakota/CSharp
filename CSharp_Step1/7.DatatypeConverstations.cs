@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices.ComTypes;
 
 class DatatypeConversations
 {
@@ -70,9 +71,38 @@ class DatatypeConversations
 
         string[] strings;
 
-        //strings.jo
+        // value -> ref     => boxing
+        // ref   -> value   => unboxing
 
-        
+
+        /*
+          Boxing and Unboxing:
+          Boxing is the process of converting a value type to a reference type (e.g., object).
+          Unboxing is the reverse process, converting a boxed value back to its original value type.
+
+          Value type: Data stored directly in memory
+          Reference type: Reference to data stored in memory
+      */
+
+        int a = 10;  // a directly contains the data - 10;
+        string b = "Csharp"; // b holds a reference to this string("Csharp") in memory
+
+        //boxing
+        int num1 = 42;
+        object obj = num1;   //boxing : Here object createt eh referece for stroing the num1 data.
+        Console.WriteLine($"Object vaue is {obj}");  // 42
+
+
+        int num2 = (int)obj;  //unboxing
+        Console.WriteLine($"num2 is : {num2}");
+
+
+
+        //value type -> ref    => boxing
+        //ref        -> value  => unboxing
+
+
+
 
 
 

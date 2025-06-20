@@ -89,7 +89,7 @@ class StringExample
         //split
         string data = "apple,banana,cherry";
         string[] fruitsList = data.Split(',');
-        Console.WriteLine(fruitsList);
+        Console.WriteLine(fruitsList);     //Array
 
 
         string original = "The quick brown fox";
