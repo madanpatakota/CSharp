@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Loops</StartupObject>
+    <StartupObject>MethodsWithParams</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,8 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.Basics.cs" />
+    <Compile Include="10.Methods\1.Methods.cs" />
+    <Compile Include="10.Methods\2.MethodsWithReturnTypes.cs" />
+    <Compile Include="10.Methods\3.MethodWithParams.cs" />
     <Compile Include="2.Datatypes.cs" />
     <Compile Include="3.Datatypes.cs" />
+    <Compile Include="10.Methods\4.MethodsWithParamsAndReturntypes.cs" />
     <Compile Include="4.VarAndDynamic.cs" />
     <Compile Include="5.String.cs" />
     <Compile Include="6.Operators.cs" />
