@@ -18,9 +18,7 @@ class MethodsWithParamsAndReturntypes
     static int getEmpAgeByName(string name)
     {
 
-        string str = "hello how are you , " + name;
-        int num = 0;
-        bool isfalse = false;
+        
 
         return num; // VVIMP
 
