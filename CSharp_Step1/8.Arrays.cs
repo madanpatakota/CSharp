@@ -49,11 +49,25 @@ class Arrays
             Console.WriteLine($"Prining Every Updated Currency Note i.e. : {updatdCurrency}");
         }
 
-
+      //                      0              1          2
         string[] books = { "MathMatics", "Physics", "Chemistry" };
         int booksLength = books.Length;  //3
 
+        Console.WriteLine(books);  // o/p  system.string[]
 
+        foreach(string book in books)
+        {
+            /// i wo't print 
+            if(book == "MathMatics")
+            {
+                Console.WriteLine("Yes!!!MathMatics is availble in your booksList");
+            }
+        }
+
+
+        //if , else if ,  else         or      switch...case
+
+        //books[books.Length - 1];
 
         //Console.WriteLine(booksLength);
         //books.Length
