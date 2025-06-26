@@ -1,0 +1,53 @@
+﻿//
+
+
+
+// void is noting but non-return type
+
+
+
+//return type????? or parameter ???
+
+
+//what is returntype?
+
+
+//what is parameter?
+
+
+//what is datatype of that parameter?
+
+
+//what is argument?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
